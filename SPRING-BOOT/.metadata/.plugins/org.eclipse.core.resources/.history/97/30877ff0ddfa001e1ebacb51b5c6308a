@@ -1,0 +1,16 @@
+package com.example.demo;
+
+import org.junit.jupiter.api.AfterEach;
+
+import com.example.demo.repository.MemoryMemberRepository;
+
+class MemoryMemberRepositoryTest {
+	
+	MemoryMemberRepository repository = new MemoryMemberRepository();
+	
+	@AfterEach
+	public void afterEach() {
+		repository.clearStore();
+	}
+
+}

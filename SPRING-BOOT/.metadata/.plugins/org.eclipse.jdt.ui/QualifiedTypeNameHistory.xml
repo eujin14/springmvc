@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Member"/>
+    <fullyQualifiedTypeName name="java.lang.Long"/>
+    <fullyQualifiedTypeName name="hello.core.member.MemberRepository"/>
+    <fullyQualifiedTypeName name="hello.core.member.MemoryMemberRepository"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.ThreadPoolExecutor.DiscardPolicy"/>
+    <fullyQualifiedTypeName name="hello.core.discount.FixDiscountPolicy"/>
+    <fullyQualifiedTypeName name="hello.core.member.MemberServiceImpl"/>
+    <fullyQualifiedTypeName name="hello.core.order.OrderService"/>
+    <fullyQualifiedTypeName name="hello.core.order.OrderServicImpl"/>
+    <fullyQualifiedTypeName name="hello.core.order.Order"/>
+    <fullyQualifiedTypeName name="hello.core.order.OrderServiceImpl"/>
+    <fullyQualifiedTypeName name="java.lang.AssertionError"/>
+    <fullyQualifiedTypeName name="hello.core.discount.RateDiscountPolicy"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.DisplayName"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+    <fullyQualifiedTypeName name="hello.core.member.Member"/>
+    <fullyQualifiedTypeName name="org.assertj.core.api.Assertions"/>
+    <fullyQualifiedTypeName name="hello.core.member.Grade"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="ch.qos.logback.core.model.Model"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseBody"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
+</qualifiedTypeNameHistroy>

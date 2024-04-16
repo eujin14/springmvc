@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MemoryMemberRepositoryTest" project="hello-spring" tests="3" started="3" failures="1" errors="0" ignored="0">
+  <testsuite name="com.example.demo.MemoryMemberRepositoryTest" time="0.045" displayname="MemoryMemberRepositoryTest" uniqueid="[engine:junit-jupiter]/[class:com.example.demo.MemoryMemberRepositoryTest]">
+    <testcase name="findAll" classname="com.example.demo.MemoryMemberRepositoryTest" time="0.042" displayname="findAll()" uniqueid="[engine:junit-jupiter]/[class:com.example.demo.MemoryMemberRepositoryTest]/[method:findAll()]">
+      <failure>
+        <expected>2</expected>
+        <actual>1</actual>
+        org.opentest4j.AssertionFailedError: &#13;
+expected: 2&#13;
+ but was: 1&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)&#13;
+	at com.example.demo.MemoryMemberRepositoryTest.findAll(MemoryMemberRepositoryTest.java:67)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="findByName" classname="com.example.demo.MemoryMemberRepositoryTest" time="0.002" displayname="findByName()" uniqueid="[engine:junit-jupiter]/[class:com.example.demo.MemoryMemberRepositoryTest]/[method:findByName()]"/>
+    <testcase name="save" classname="com.example.demo.MemoryMemberRepositoryTest" time="0.001" displayname="save()" uniqueid="[engine:junit-jupiter]/[class:com.example.demo.MemoryMemberRepositoryTest]/[method:save()]"/>
+  </testsuite>
+</testrun>

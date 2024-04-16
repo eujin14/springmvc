@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ApplicationContextInfoTest" project="core" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="hello.core.beanfind.ApplicationContextInfoTest" time="0.001" displayname="ApplicationContextInfoTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.beanfind.ApplicationContextInfoTest]">
+    <testcase name="findApplicationBean" classname="hello.core.beanfind.ApplicationContextInfoTest" time="0.001" displayname="애플리케이션 빈 출력하기" uniqueid="[engine:junit-jupiter]/[class:hello.core.beanfind.ApplicationContextInfoTest]/[method:findApplicationBean()]"/>
+    <testcase name="findAllBean" classname="hello.core.beanfind.ApplicationContextInfoTest" time="0.0" displayname="모든 빈 출력하기" uniqueid="[engine:junit-jupiter]/[class:hello.core.beanfind.ApplicationContextInfoTest]/[method:findAllBean()]"/>
+  </testsuite>
+</testrun>

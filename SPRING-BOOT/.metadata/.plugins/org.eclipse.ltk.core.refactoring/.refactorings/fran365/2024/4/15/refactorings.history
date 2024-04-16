@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Fran365ApplicationTests.java&apos; to &apos;core/src/main/resources&apos;&#x0D;&#x0A;- Original project: &apos;fran365&apos;&#x0D;&#x0A;- Destination element: &apos;core/src/main/resources&apos;&#x0D;&#x0A;- Original element: &apos;com.example.fran365.Fran365ApplicationTests.java&apos;" description="Copy compilation unit" destination="=core/src\/main\/resources=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/" element1="/src\/test\/java=/gradle_scope=/test=/=/gradle_used_by_scope=/test=/=/test=/true=/&lt;com.example.fran365{Fran365ApplicationTests.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1712932375625" units="1" version="1.0"/>
+</session>

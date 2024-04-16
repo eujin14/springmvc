@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=core/src\/main\/java=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/&lt;hello.core.member{MemberRepository.java[MemberRepository" modifiers="513" timestamp="1713014844456"/>
+    <typeInfo handle="=core/src\/main\/java=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/&lt;hello.core.member{MemberService.java[MemberService" modifiers="513" timestamp="1712930959157"/>
+    <typeInfo handle="=core/src\/main\/java=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/&lt;hello.core.order{OrderService.java[OrderService" modifiers="513" timestamp="1713008443636"/>
+    <typeInfo handle="=core/src\/main\/java=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/&lt;hello.core.discount{DiscountPolicy.java[DiscountPolicy" modifiers="513" timestamp="1713006575324"/>
+</typeInfoHistroy>

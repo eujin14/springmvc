@@ -1,0 +1,28 @@
+package hello.core.order;
+
+import hello.core.discount.DiscountPolicy;
+import hello.core.member.Member;
+import hello.core.member.MemberRepository;
+import hello.core.member.MemoryMemberRepository;
+
+public class OrderServiceImpl implements OrderService {
+
+			//private final MemberRepository memberRepository = new MemoryMemberRepository();
+			//private final DiscountPolicy discountPolicy = new FixDiscountPolicy();
+			//private final DiscountPolicy discountPolicy = new RateDiscountPolicy();
+			private DiscountPolicy discountPolicy;
+			private MemberRepository memberRepository;
+			
+			public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
+				this.memberRepository = memberRepository;
+				this discountPolicy = discountPolicy;
+			}
+			// 할인은 내 책임이 아님! 할인에 관한건 전부 dicountPolicy에 넘김 (회원 등급, 상품 가격)
+	        // SRP(단일 책임 원칙) 잘 지켜짐
+			 @Override
+			 public Order createOrder(Long memberId, String itemName, int itemPrice) {
+			 Member member = memberRepository.findById(memberId);
+			 int discountPrice = discountPolicy.discount(member, itemPrice);
+			 return new Order(memberId, itemName, itemPrice, discountPrice);
+			 }
+			}
