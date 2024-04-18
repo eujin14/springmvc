@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="ApplicationContextBasicFindTest" project="core" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="hello.core.beanfind.ApplicationContextBasicFindTest" time="0.044" displayname="ApplicationContextBasicFindTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.beanfind.ApplicationContextBasicFindTest]">
-    <testcase name="findBeanName" classname="hello.core.beanfind.ApplicationContextBasicFindTest" time="0.044" displayname="빈 이름으로 조회" uniqueid="[engine:junit-jupiter]/[class:hello.core.beanfind.ApplicationContextBasicFindTest]/[method:findBeanName()]"/>
-  </testsuite>
-</testrun>

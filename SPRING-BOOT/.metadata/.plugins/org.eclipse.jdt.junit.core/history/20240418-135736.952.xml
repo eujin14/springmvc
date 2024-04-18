@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Rerun 스프링 컨테이너와 싱글톤" project="core" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="hello.core.singleton.SingletonService" time="0.603" displayname="SingletonService" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.SingletonService]">
+    <testcase name="springContainer" classname="hello.core.singleton.SingletonService" time="0.603" displayname="스프링 컨테이너와 싱글톤" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.SingletonService]/[method:springContainer()]"/>
+  </testsuite>
+</testrun>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="MemberServiceTest (5)" project="hello-spring" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="com.example.demo.service.MemberServiceTest" time="0.795" displayname="MemberServiceTest" uniqueid="[engine:junit-jupiter]/[class:com.example.demo.service.MemberServiceTest]">
-    <testcase name="중복_회원_예외" classname="com.example.demo.service.MemberServiceTest" time="0.79" displayname="중복_회원_예외()" uniqueid="[engine:junit-jupiter]/[class:com.example.demo.service.MemberServiceTest]/[method:중복_회원_예외()]"/>
-    <testcase name="회원가입" classname="com.example.demo.service.MemberServiceTest" time="0.004" displayname="회원가입()" uniqueid="[engine:junit-jupiter]/[class:com.example.demo.service.MemberServiceTest]/[method:회원가입()]"/>
-  </testsuite>
-</testrun>

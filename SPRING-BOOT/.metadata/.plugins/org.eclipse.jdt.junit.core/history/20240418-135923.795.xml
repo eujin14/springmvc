@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Rerun 스프링 컨테이너와 싱글톤" project="core" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="hello.core.singleton.SingletonService" time="0.018" displayname="SingletonService" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.SingletonService]">
+    <testcase name="springContainer" classname="hello.core.singleton.SingletonService" time="0.018" displayname="스프링 컨테이너와 싱글톤" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.SingletonService]/[method:springContainer()]">
+      <error>java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert ")" to complete Expression
+	Syntax error, insert ";" to complete Statement
+	mem cannot be resolved to a variable
+	Syntax error, insert "}" to complete ClassBody
+&#13;
+	at hello.core.singleton.SingletonService.&lt;init&gt;(SingletonService.java:68)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)&#13;
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>

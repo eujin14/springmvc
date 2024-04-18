@@ -1,0 +1,14 @@
+package hello.core.beanfind;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class ApplicationContextSameBeanFindTest {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

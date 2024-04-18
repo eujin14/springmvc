@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="Rerun save()" project="hello-spring" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="com.example.demo.repository.MemoryMemberRepositoryTest" time="0.061" displayname="MemoryMemberRepositoryTest" uniqueid="[engine:junit-jupiter]/[class:com.example.demo.repository.MemoryMemberRepositoryTest]">
-    <testcase name="save" classname="com.example.demo.repository.MemoryMemberRepositoryTest" time="0.061" displayname="save()" uniqueid="[engine:junit-jupiter]/[class:com.example.demo.repository.MemoryMemberRepositoryTest]/[method:save()]"/>
-  </testsuite>
-</testrun>
