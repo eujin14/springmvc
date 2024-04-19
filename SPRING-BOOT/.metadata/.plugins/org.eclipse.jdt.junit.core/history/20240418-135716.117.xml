@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="SingletonService" project="core" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="hello.core.singleton.SingletonService" time="0.58" displayname="SingletonService" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.SingletonService]">
-    <testcase name="singletonServiceTest" classname="hello.core.singleton.SingletonService" time="0.056" displayname="싱글톤 패턴을 적용한 객체 사용" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.SingletonService]/[method:singletonServiceTest()]"/>
-    <testcase name="springContainer" classname="hello.core.singleton.SingletonService" time="0.523" displayname="스프링 컨테이너와 싱글톤" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.SingletonService]/[method:springContainer()]"/>
-  </testsuite>
-</testrun>

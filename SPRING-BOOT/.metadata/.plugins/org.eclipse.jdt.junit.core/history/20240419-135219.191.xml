@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="OrderServiceImplTest" project="core" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="hello.core.order.OrderServiceImplTest" time="0.051" displayname="OrderServiceImplTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.order.OrderServiceImplTest]">
-    <testcase name="creatOrder" classname="hello.core.order.OrderServiceImplTest" time="0.051" displayname="creatOrder()" uniqueid="[engine:junit-jupiter]/[class:hello.core.order.OrderServiceImplTest]/[method:creatOrder()]"/>
-  </testsuite>
-</testrun>

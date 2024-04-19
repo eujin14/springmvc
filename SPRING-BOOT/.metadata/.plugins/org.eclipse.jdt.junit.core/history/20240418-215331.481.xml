@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="ConfigurationSingletonTest" project="core" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="hello.core.singleton.ConfigurationSingletonTest" time="0.48" displayname="ConfigurationSingletonTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.ConfigurationSingletonTest]">
-    <testcase name="configurationDeep" classname="hello.core.singleton.ConfigurationSingletonTest" time="0.421" displayname="configurationDeep()" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.ConfigurationSingletonTest]/[method:configurationDeep()]"/>
-    <testcase name="configurationTest" classname="hello.core.singleton.ConfigurationSingletonTest" time="0.058" displayname="configurationTest()" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.ConfigurationSingletonTest]/[method:configurationTest()]"/>
-  </testsuite>
-</testrun>
