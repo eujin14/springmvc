@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="java" project="core" tests="30" started="30" failures="1" errors="1" ignored="0">
+  <testsuite name="hello.core.beandefinition.BeanDefinitionTest" time="0.0" displayname="BeanDefinitionTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.beandefinition.BeanDefinitionTest]">
+    <testcase name="findApplicationBean" classname="hello.core.beandefinition.BeanDefinitionTest" time="0.0" displayname="빈 설정 메타 정보 확인" uniqueid="[engine:junit-jupiter]/[class:hello.core.beandefinition.BeanDefinitionTest]/[method:findApplicationBean()]"/>
+  </testsuite>
+  <testsuite name="hello.core.order.OrderServiceTest" time="0.055" displayname="OrderServiceTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.order.OrderServiceTest]">
+    <testcase name="createOrder" classname="hello.core.order.OrderServiceTest" time="0.055" displayname="createOrder()" uniqueid="[engine:junit-jupiter]/[class:hello.core.order.OrderServiceTest]/[method:createOrder()]"/>
+  </testsuite>
+  <testsuite name="hello.core.autowired.AutowiredTest" time="0.01" displayname="AutowiredTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.autowired.AutowiredTest]">
+    <testcase name="test" classname="hello.core.autowired.AutowiredTest" time="0.01" displayname="test()" uniqueid="[engine:junit-jupiter]/[class:hello.core.autowired.AutowiredTest]/[method:test()]">
+      <failure>org.opentest4j.AssertionFailedError: Not yet implemented&#13;
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)&#13;
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)&#13;
+	at hello.core.autowired.AutowiredTest.test(AutowiredTest.java:11)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="hello.core.scan.filter.ComponentFilterAppConfigTest" time="0.039" displayname="ComponentFilterAppConfigTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.scan.filter.ComponentFilterAppConfigTest]">
+    <testcase name="filterScan" classname="hello.core.scan.filter.ComponentFilterAppConfigTest" time="0.039" displayname="filterScan()" uniqueid="[engine:junit-jupiter]/[class:hello.core.scan.filter.ComponentFilterAppConfigTest]/[method:filterScan()]"/>
+  </testsuite>
+  <testsuite name="hello.core.xml.XmlAppContext" time="0.094" displayname="XmlAppContext" uniqueid="[engine:junit-jupiter]/[class:hello.core.xml.XmlAppContext]">
+    <testcase name="xmlAppContext" classname="hello.core.xml.XmlAppContext" time="0.094" displayname="xmlAppContext()" uniqueid="[engine:junit-jupiter]/[class:hello.core.xml.XmlAppContext]/[method:xmlAppContext()]"/>
+  </testsuite>
+  <testsuite name="hello.core.singleton.SingletonService" time="0.013" displayname="SingletonService" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.SingletonService]">
+    <testcase name="singletonServiceTest" classname="hello.core.singleton.SingletonService" time="0.001" displayname="싱글톤 패턴을 적용한 객체 사용" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.SingletonService]/[method:singletonServiceTest()]"/>
+    <testcase name="springContainer" classname="hello.core.singleton.SingletonService" time="0.012" displayname="스프링 컨테이너와 싱글톤" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.SingletonService]/[method:springContainer()]"/>
+  </testsuite>
+  <testsuite name="hello.core.singleton.StatefulServiceTest" time="0.006" displayname="StatefulServiceTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.StatefulServiceTest]">
+    <testcase name="statefulServiceSingleton" classname="hello.core.singleton.StatefulServiceTest" time="0.006" displayname="statefulServiceSingleton()" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.StatefulServiceTest]/[method:statefulServiceSingleton()]"/>
+  </testsuite>
+  <testsuite name="hello.core.singleton.ConfigurationSingletonTest" time="0.022" displayname="ConfigurationSingletonTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.ConfigurationSingletonTest]">
+    <testcase name="configurationDeep" classname="hello.core.singleton.ConfigurationSingletonTest" time="0.012" displayname="configurationDeep()" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.ConfigurationSingletonTest]/[method:configurationDeep()]"/>
+    <testcase name="configurationTest" classname="hello.core.singleton.ConfigurationSingletonTest" time="0.01" displayname="configurationTest()" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.ConfigurationSingletonTest]/[method:configurationTest()]"/>
+  </testsuite>
+  <testsuite name="hello.core.singleton.SingletonTest" time="0.001" displayname="SingletonTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.SingletonTest]">
+    <testcase name="pureContainer" classname="hello.core.singleton.SingletonTest" time="0.001" displayname="스프링 없는 순수한 DI 컨테이너" uniqueid="[engine:junit-jupiter]/[class:hello.core.singleton.SingletonTest]/[method:pureContainer()]"/>
+  </testsuite>
+  <testsuite name="hello.core.discount.RateDiscountPolicyTest" time="0.002" displayname="RateDiscountPolicyTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.discount.RateDiscountPolicyTest]">
+    <testcase name="vip_o" classname="hello.core.discount.RateDiscountPolicyTest" time="0.001" displayname="VIP는 10% 할인이 적용되어야 한다." uniqueid="[engine:junit-jupiter]/[class:hello.core.discount.RateDiscountPolicyTest]/[method:vip_o()]"/>
+    <testcase name="vip_x" classname="hello.core.discount.RateDiscountPolicyTest" time="0.001" displayname="VIP가 아니면, 할인이 적용되지 않아야 한다." uniqueid="[engine:junit-jupiter]/[class:hello.core.discount.RateDiscountPolicyTest]/[method:vip_x()]"/>
+  </testsuite>
+  <testsuite name="hello.core.MemberServiceTest" time="0.0" displayname="MemberServiceTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.MemberServiceTest]">
+    <testcase name="join" classname="hello.core.MemberServiceTest" time="0.0" displayname="join()" uniqueid="[engine:junit-jupiter]/[class:hello.core.MemberServiceTest]/[method:join()]"/>
+  </testsuite>
+  <testsuite name="hello.core.CoreApplicationTests" time="0.003" displayname="CoreApplicationTests" uniqueid="[engine:junit-jupiter]/[class:hello.core.CoreApplicationTests]">
+    <testcase name="contextLoads" classname="hello.core.CoreApplicationTests" time="0.004" displayname="contextLoads()" uniqueid="[engine:junit-jupiter]/[class:hello.core.CoreApplicationTests]/[method:contextLoads()]">
+      <error>java.lang.IllegalStateException: Failed to load ApplicationContext for [MergedContextConfiguration@ebd06a9 testClass = hello.core.CoreApplicationTests, locations = [], classes = [hello.core.CoreApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@750fe12e, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@2ef8a8c3, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@70e0accd, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@6ce1f601, org.springframework.boot.test.context.SpringBootTestAnnotation@50c0436e], contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]&#13;
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180)&#13;
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)&#13;
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142)&#13;
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:98)&#13;
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)&#13;
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:163)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)&#13;
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)&#13;
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)&#13;
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)&#13;
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberServiceImpl' defined in file [C:\Users\김유진\Downloads\core\core\bin\main\hello\core\member\MemberServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'hello.core.member.MemberRepository' available: expected single matching bean but found 2: memoryMemberRepository,memberRepository&#13;
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:795)&#13;
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237)&#13;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1355)&#13;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1192)&#13;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)&#13;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)&#13;
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)&#13;
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)&#13;
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)&#13;
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)&#13;
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)&#13;
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962)&#13;
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)&#13;
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)&#13;
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)&#13;
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)&#13;
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)&#13;
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)&#13;
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)&#13;
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1454)&#13;
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553)&#13;
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)&#13;
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)&#13;
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)&#13;
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)&#13;
+	... 17 more&#13;
+Caused by: org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'hello.core.member.MemberRepository' available: expected single matching bean but found 2: memoryMemberRepository,memberRepository&#13;
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveNotUnique(DependencyDescriptor.java:218)&#13;
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1420)&#13;
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)&#13;
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904)&#13;
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782)&#13;
+	... 41 more&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+  <testsuite name="hello.core.beanfind.ApplicationContextBasicFindTest" time="0.034" displayname="ApplicationContextBasicFindTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.beanfind.ApplicationContextBasicFindTest]">
+    <testcase name="findBeanByName2" classname="hello.core.beanfind.ApplicationContextBasicFindTest" time="0.001" displayname="구체 타입으로 조회" uniqueid="[engine:junit-jupiter]/[class:hello.core.beanfind.ApplicationContextBasicFindTest]/[method:findBeanByName2()]"/>
+    <testcase name="findBeanByNameX" classname="hello.core.beanfind.ApplicationContextBasicFindTest" time="0.002" displayname="빈 이름으로 조회X" uniqueid="[engine:junit-jupiter]/[class:hello.core.beanfind.ApplicationContextBasicFindTest]/[method:findBeanByNameX()]"/>
+    <testcase name="findBeanName" classname="hello.core.beanfind.ApplicationContextBasicFindTest" time="0.0" displayname="빈 이름으로 조회" uniqueid="[engine:junit-jupiter]/[class:hello.core.beanfind.ApplicationContextBasicFindTest]/[method:findBeanName()]"/>
+    <testcase name="findBeanType" classname="hello.core.beanfind.ApplicationContextBasicFindTest" time="0.001" displayname="이름 없이 타입만드로 조회" uniqueid="[engine:junit-jupiter]/[class:hello.core.beanfind.ApplicationContextBasicFindTest]/[method:findBeanType()]"/>
+  </testsuite>
+  <testsuite name="hello.core.beanfind.ApplicationContextExtendsFindTest" time="0.037" displayname="ApplicationContextExtendsFindTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.beanfind.ApplicationContextExtendsFindTest]">
+    <testcase name="findBeanByParentTypeDuplicate" classname="hello.core.beanfind.ApplicationContextExtendsFindTest" time="0.001" displayname="부모 타입으로 조회시, 자식이 둘 이상 있으면, 중복 오류가 발생한다" uniqueid="[engine:junit-jupiter]/[class:hello.core.beanfind.ApplicationContextExtendsFindTest]/[method:findBeanByParentTypeDuplicate()]"/>
+    <testcase name="findAllBeanByObjectType" classname="hello.core.beanfind.ApplicationContextExtendsFindTest" time="0.006" displayname="부모 타입으로 모두 조회하기 - Object" uniqueid="[engine:junit-jupiter]/[class:hello.core.beanfind.ApplicationContextExtendsFindTest]/[method:findAllBeanByObjectType()]"/>
+    <testcase name="findBeanBySubType" classname="hello.core.beanfind.ApplicationContextExtendsFindTest" time="0.0" displayname="특정 하위 타입으로 조회" uniqueid="[engine:junit-jupiter]/[class:hello.core.beanfind.ApplicationContextExtendsFindTest]/[method:findBeanBySubType()]"/>
+    <testcase name="findBeanByParentTypeBeanName" classname="hello.core.beanfind.ApplicationContextExtendsFindTest" time="0.0" displayname="부모 타입으로 조회시, 자식이 둘 이상 있으면, 빈 이름을 지정하면 된다" uniqueid="[engine:junit-jupiter]/[class:hello.core.beanfind.ApplicationContextExtendsFindTest]/[method:findBeanByParentTypeBeanName()]"/>
+    <testcase name="findAllBeanByParentType" classname="hello.core.beanfind.ApplicationContextExtendsFindTest" time="0.0" displayname="부모 타입으로 모두 조회하기" uniqueid="[engine:junit-jupiter]/[class:hello.core.beanfind.ApplicationContextExtendsFindTest]/[method:findAllBeanByParentType()]"/>
+  </testsuite>
+  <testsuite name="hello.core.beanfind.ApplicationContextInfoTest" time="0.012" displayname="ApplicationContextInfoTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.beanfind.ApplicationContextInfoTest]">
+    <testcase name="findApplicationBean" classname="hello.core.beanfind.ApplicationContextInfoTest" time="0.001" displayname="애플리케이션 빈 출력하기" uniqueid="[engine:junit-jupiter]/[class:hello.core.beanfind.ApplicationContextInfoTest]/[method:findApplicationBean()]"/>
+    <testcase name="findAllBean" classname="hello.core.beanfind.ApplicationContextInfoTest" time="0.001" displayname="모든 빈 출력하기" uniqueid="[engine:junit-jupiter]/[class:hello.core.beanfind.ApplicationContextInfoTest]/[method:findAllBean()]"/>
+  </testsuite>
+  <testsuite name="hello.core.beanfind.ApplicationContextSameBeanFindTest" time="0.017" displayname="ApplicationContextSameBeanFindTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.beanfind.ApplicationContextSameBeanFindTest]">
+    <testcase name="findAllBeanType" classname="hello.core.beanfind.ApplicationContextSameBeanFindTest" time="0.003" displayname="findAllBeanType()" uniqueid="[engine:junit-jupiter]/[class:hello.core.beanfind.ApplicationContextSameBeanFindTest]/[method:findAllBeanType()]"/>
+    <testcase name="findByName" classname="hello.core.beanfind.ApplicationContextSameBeanFindTest" time="0.0" displayname="타입으로 조회시 같은 타입이 둘 이상 있으며, 빈 이름을 지정하면 된다." uniqueid="[engine:junit-jupiter]/[class:hello.core.beanfind.ApplicationContextSameBeanFindTest]/[method:findByName()]"/>
+    <testcase name="findBeanTypeDuplicate" classname="hello.core.beanfind.ApplicationContextSameBeanFindTest" time="0.0" displayname="타입으로 조회시 같은 타입이 둘 이상 있으면, 중복 오류가 발생한다." uniqueid="[engine:junit-jupiter]/[class:hello.core.beanfind.ApplicationContextSameBeanFindTest]/[method:findBeanTypeDuplicate()]"/>
+  </testsuite>
+  <testsuite name="hello.core.scan.AutoAppConfigTest" time="0.032" displayname="AutoAppConfigTest" uniqueid="[engine:junit-jupiter]/[class:hello.core.scan.AutoAppConfigTest]">
+    <testcase name="basicScan" classname="hello.core.scan.AutoAppConfigTest" time="0.033" displayname="basicScan()" uniqueid="[engine:junit-jupiter]/[class:hello.core.scan.AutoAppConfigTest]/[method:basicScan()]"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,14 @@
+package hello.core.autowired;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class AutowiredTest {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}
