@@ -1,8 +1,0 @@
-package hello.core;
-
-public class AppConfig {
-	
-	public MemberService memberService() { 
-	return new MemberServiceImpl(nem MemorMemberRepository());
-	}
-}
